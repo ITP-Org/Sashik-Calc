@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sashik's Calculator</title>
+</head>
+<body>
+<div class="container1">
+
+        <div class="calc">
+            <form>
+              <div class="diss">
+                <input type="text" name="diss">
+              </div> 
+              <div>
+                <input type="button" value="AC"onclick="diss.value =''">
+              </div> 
+              <div>
+                <input type="button" value="7" onclick="diss.value +='7'">
+                <input type="button" value="8"onclick="diss.value +='8'">
+                <input type="button" value="9"onclick="diss.value +='9'">
+                <input type="button" value="*"onclick="diss.value +='*'">
+              </div>
+
+              <div>
+                <input type="button" value="4"onclick="diss.value +='4'">
+                <input type="button" value="5"onclick="diss.value +='5'">
+                <input type="button" value="6" onclick="diss.value +='6'">
+                <input type="button" value="/"onclick="diss.value +='/'">
+              </div>
+
+              <div>
+                <input type="button" value="1" onclick="diss.value +='1'">
+                <input type="button" value="2" onclick="diss.value +='2'">
+                <input type="button" value="3" onclick="diss.value +='3'">
+                <input type="button" value="+"onclick="diss.value +='+'">
+
+
+              </div>
+              <div>
+                <input type="button" value="0"onclick="diss.value +='0'">
+                <input type="button" value="."onclick="diss.value +='.'">
+                <input type="button" value="="onclick="diss.value=eval(diss.value)">
+                <input type="button" value="-"onclick="diss.value +='-'">
+              </div>
+            </form>
+        </div>
+</div>
+    
+</body>
+</html>
